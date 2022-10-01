@@ -1,3 +1,15 @@
+# Prolog
+# Author:  Suzal Regmi
+# Email:  sregmi2@student.gsu.edu
+# Section: 036
+# Reference: no one
+# Timestamp: 8:44 PM, 30th September 2022
+# Approximate Time Taken: 1 hour
+
+# Assignment Info: We coded a program that takes a 3x3 Tic-Tac-Toe board as input and 
+# displays which player won, or if both players won.
+
+
 tik_board = [input(f"Row {_} (can only be 'X', 'O', or 'E'): ") for _ in range(0, 3)]
 
 to_print = []
