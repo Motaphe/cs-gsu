@@ -28,20 +28,24 @@ while minimum_tries != 0:
             break
         else:
             print ("CHEATING ALERT!!")
+            break
 
     elif what_to_guess < userNumber:    
         if check == "<":
             larger = userNumber - 1
         else:
             print ("CHEATING ALERT!!")
+            break
 
     elif  what_to_guess > userNumber:
         if check == ">":
             smaller = userNumber + 1
         else:
             print ("CHEATING ALERT!!")
+            break
 
     minimum_tries -= 1
     
 if minimum_tries == 0:
     print ("Dang it! I failed to guess the number in time :(")
+    
